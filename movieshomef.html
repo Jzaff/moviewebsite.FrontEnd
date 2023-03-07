@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movieshomef.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Jzaff.tv</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="home2.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="tvhome2.html">TV Generation</a>
+                </li>
+                <li>
+                    <a href="serieshome2.html">Series Categories</a>
+                </li>
+                <li>
+                    <a href="movieshome2.html">Movies Categories</a>
+                </li>
+                <li>
+                    <a href="account.html">Account Details</a>
+                </li>
+                <li>
+                    <a href="Home.html">Quit</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="m-title">Fight</h1>
+    <div class="filter">
+        <h3>Movie Genres</h3>
+        <ul>
+            <li>
+                <a href="movieshome2.html">All Movie Genres</a>
+            </li>
+            <li>
+                <a href="movieshomehoror.html">Horror</a>
+            </li>
+            <li>
+                <a href="movieshomeact.html">Action</a>
+            </li>
+            <li>
+                <a href="movieshomesf.html">Science Fiction</a>
+            </li>
+            <li>
+                <a href="movieshomeadv.html">Adventure</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="card">
+            <div class="image-all">
+                <img src="fightclub.jpeg" alt="">
+            </div>
+            <div class="title">
+                <h1>Fight Club</h1>
+            </div>
+            <div class="des">
+                <p>1st rule in Fight Club; Never talk about Fight Club. 2nd rule; Never ever talk about fight club.
+                </p>
+                <button>Watch Now!</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-all">
+                <img src="thegodfather.jpeg" alt="">
+            </div>
+            <div class="title">
+                <h1>The GodFather 1</h1>
+            </div>
+            <div class="des">
+                <p>Don Corleone is a mafia boss, things change in the Corleone family after the assassination attempt.
+                </p>
+                <button>Watch Now!</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-all">
+                <img src="thedarkknight.jpeg" alt="">
+            </div>
+            <div class="title">
+                <h1>The Dark Knight</h1>
+            </div>
+            <div class="des">
+                <p>Known as the protector of Gotham City, Batman takes her war against crime further this time.
+                </p>
+                <button>Watch Now!</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-all">
+                <img src="avatar.jpeg" alt="">
+            </div>
+            <div class="title">
+                <h1>Avatar 1</h1>
+            </div>
+            <div class="des">
+                <p>Jake Sully lost his brother in a theft. With no more luck in life, Jake finds another way.
+                </p>
+                <button>Watch Now!</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-all">
+                <img src="starwars.png" alt="">
+            </div>
+            <div class="title">
+                <h1>SW : The Force Awakens </h1>
+            </div>
+            <div class="des">
+                <p>Luke Skywalker will face his Father Darth Vader seriously.2 sides, 1 Winner.Swords Draw!
+                </p>
+                <button>Watch Now!</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-all">
+                <img src="avengers.jpeg" alt="">
+            </div>
+            <div class="title">
+                <h1>The Avengers 1</h1>
+            </div>
+            <div class="des">
+                <p>Fury assembles a group of the bravest and most superheroes to save the world from disaster.
+                </p>
+                <button>Watch Now!</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul class="social_icon">
+            <li><a href="https://www.instagram.com/jzaff00/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://github.com/Jzaff"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="https://akademi.bilgeadam.com/"><ion-icon name="logo-react"></ion-icon></a></li>
+            <li><a href="https://discord.com/channels/1030888198211121262/1030888198211121264"><ion-icon name="logo-discord"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="home2.html">Home</a></li>
+            <li><a href="tvhome2.html">Tv Generation</a></li>
+            <li><a href="serieshome2.html">Series Categories</a></li>
+            <li><a href="movieshome2.html">Movies Categories</a></li>
+            <li><a href="Home.html">Quit</a></li>
+        </ul>
+        <p>©2023 Designed by Akın "Jzaff" Kalay | All Rights Reserved</p>
+    </footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
